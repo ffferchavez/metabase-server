@@ -9,3 +9,4 @@ services:
       - ./metabase-data:/metabase-data
     env_file:
       - .env.production
+    restart: always
